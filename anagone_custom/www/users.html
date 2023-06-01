@@ -1,0 +1,69 @@
+<h3>Lista de Clientes</h3>
+
+<h4>Active User: {{ activeUser }}</h4>
+
+<table class="table table-bordered table-hover">
+    <tr>
+	<th>Nombre</th>
+	<th>2</th>
+	<th>3</th>
+	<th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+        <th>Observaciones</th>
+        <th>Correo</th>
+        <th>13</th>
+        <th>Teléfono</th>
+        <th>15</th>
+        <th>16</th>
+        <th>17</th>
+        <th>18</th>
+        <th>Moneda</th>
+        <th>20</th>
+        <th>21</th>
+        <th>Lista de Precios</th>
+        <th>Nombre</th>
+        <th>24</th>
+        <th>Territorio</th>
+        <th>26</th>
+        <th>Website</th>
+        <th>28</th>
+        <th>29</th>
+        <th>30</th>
+        <th>Contacto</th>
+        <th>32</th>
+        <th>Identificación</th>
+        <th>34</th>
+        <th>Idioma</th>
+        <th>Género</th>
+        <th>Tipo Compañia</th>
+        <th>38</th>
+        <th>39</th>
+        <th>40</th>
+        <th>41</th>
+        <th>42</th>
+        <th>43</th>
+        <th>44</th>
+        <th>45</th>
+        <th>46</th>
+        <th>47</th>
+        <th>48</th>
+        <th>49</th>
+        <th>Bodega</th>
+        <th>Correo</th>
+        <th>Sociedad Anónima</th>
+    </tr>
+
+{% for c in customers %}
+    <tr>
+	{% for d in c %}
+		<td>
+		{{ d }}
+		</td>
+	{% endfor %}
+    </tr>
+{% endfor %}

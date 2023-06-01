@@ -1,0 +1,19 @@
+<h3>Lista de Usuarios</h3>
+
+<h4>Active User: {{ activeUser }}</h4>
+
+<table>
+    <tr>
+	<th>1</th>
+	<th>2</th>
+	<th>3</th>
+	<th>4</th>
+    </tr>
+
+{% for c in customers %}
+    <tr>
+	<td>
+		{{ c.name }} {{ c.1 }} {{ c.2 }} {{ c.3 }} {{ c.4 }} {{ c }}
+	</td>
+    </tr>
+{% endfor %}

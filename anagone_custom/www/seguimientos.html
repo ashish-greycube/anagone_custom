@@ -1,0 +1,22 @@
+<h1>Seguimiento de Clientes</h1>
+
+<h4>Active User: {{ activeUser }}</h4>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Cliente</th>
+        <th>Recordatorio</th>
+        <th>Estado</th>
+        <th>Notas</th>
+        <th>Observaciones</th>
+    </tr>
+
+{% for c in customers %}
+    <tr>
+        <td>{{ c.10 }}</td>
+        <td>{{ c.15 }}</td>
+        <td>{{ c.13 }}</td>
+        <td>{{ c.14 }}</td>
+        <td>{{ c.23 }}</td>
+    </tr>
+{% endfor %}
