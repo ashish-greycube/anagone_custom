@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include anagone_custom *.css
+recursive-include anagone_custom *.csv
+recursive-include anagone_custom *.html
+recursive-include anagone_custom *.ico
+recursive-include anagone_custom *.js
+recursive-include anagone_custom *.json
+recursive-include anagone_custom *.md
+recursive-include anagone_custom *.png
+recursive-include anagone_custom *.py
+recursive-include anagone_custom *.svg
+recursive-include anagone_custom *.txt
+recursive-exclude anagone_custom *.pyc
